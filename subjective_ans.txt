@@ -1,0 +1,45 @@
+1)
+
+JDK (Java Development Kit):- Used by developers to develop, compile, and debug Java applications. It contains JRE and other development tools.
+
+JRE (Java Runtime Environment):It provides the libraries and JVM required to run Java applications. Does not have development tools (no compiler).
+
+2) 
+
+JVM is an abstract machine that executes Java bytecode. It acts as a runtime environment for Java programs.
+Responsibilities:- Loads code (via Class Loader) , Verifies code , Executes bytecode , Provides memory management & garbage collection
+
+3)
+
+Different types of the memory areas allocated by JVM :-
+
+i) Heap – Stores objects and instance variables.
+
+ii) Stack – Stores method calls, local variables, partial results.
+
+4)
+
+JIT (Just-In-Time) Compiler is a part of JVM and it converts bytecode into native machine code at runtime.
+
+5)
+
+Java platform is software-based and runs on JVM, making it platform-independent. Java provides built-in libraries, security, and 
+automatic memory management. Java platform is differ from other platforms (like C/C++) are hardware-dependent and need recompilation for 
+different OS.
+
+6)
+
+Java is called as 'Write Once and Run Everywhere' because it is compiled into bytecode, not machine code.
+
+7)
+
+Class Loader loads Java classes into JVM at runtime.
+
+8) 
+
+No, main is not a keyword. It is just a name of the method that JVM looks for as the entry point of a Java program.
+
+9)
+
+No, the order matters. If you write public void static, it will cause a compilation error, because Java expects modifiers in a specific 
+order (public static before return type).
